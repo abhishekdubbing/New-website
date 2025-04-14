@@ -1,0 +1,68 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Flipkart Orders</title> 
+  <link rel="stylesheet" href="style.css">
+ </head> 
+ <body> 
+  <div class="top-bar"> <a href="#" id="you-link">You</a> </div> 
+  <div class="header"> 
+   <img src="flipkart_logo.png" alt="Flipkart Logo"> 
+   <input type="text" placeholder="Search for Products"> 
+   <button>Search</button> 
+  </div> 
+  <div class="banner"> 
+   <h2>Biggest Deals Under ₹15,000</h2> 
+   <p>Explore More!</p> 
+   <img src="banner_image.png" alt="Banner Image" style="max-width: 100%;"> 
+   <p>From ₹7,299 -&gt;</p> 
+  </div> 
+  <div class="categories"> 
+   <div class="category">Fashion</div> 
+   <div class="category">Beauty</div> 
+   <div class="category">Gadgets</div> 
+   <div class="category">Toys, Bab...</div> 
+   <div class="category">Home</div> 
+   <div class="category">Mobile</div> 
+  </div> 
+  <div class="suggested"> 
+   <h2>Suggested for You</h2> 
+   <div class="suggested-items"> 
+    <div class="suggested-item"> 
+     <img src="product1.png" alt="Product 1"> 
+     <p>Oliver Athletic Su...</p> 
+     <p>₹160 <del>₹299</del></p> 
+    </div> 
+    <div class="suggested-item"> 
+     <img src="product2.png" alt="Product 2"> 
+     <p>MS Enterprises L...</p> 
+     <p>₹140 <del>₹300</del></p> 
+     <p>Free delivery</p> 
+    </div> 
+    <div class="suggested-item"> 
+     <img src="product3.png" alt="Product 3"> 
+     <p>Oliver Gym Suppo...</p> 
+     <p>₹242 <del>₹899</del></p> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="you-page hidden" id="you-page-content"> 
+   <div class="profile-header"> 
+    <h2>Abhishek Adhurya</h2> 
+    <p>◆ Premium member &gt;</p> 
+    <p>Supercoins Balance 0 &gt;</p> 
+   </div> 
+   <div class="options-grid"> 
+    <a href="#" class="option-button" id="orders-link">Orders</a> 
+    <a href="#" class="option-button">Wishlist</a> 
+    <a href="#" class="option-button">Coupons</a> 
+    <a href="#" class="option-button">Help Center</a> 
+   </div> 
+  </div> 
+  <div class="orders-page hidden" id="orders-page-content"> 
+   <h2>My Orders</h2> 
+   <div id="order-list"> </div> 
+  </div> 
+  <script src="script.js"></script>
+ </body>
+</html>
